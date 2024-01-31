@@ -17,6 +17,9 @@ body{
     padding-right: var(--gutter);
     padding-top: calc(var(--gutter)*3);
     padding-bottom: calc(var(--gutter)*3);
+    display: flex;
+    flex-direction: column;
+    row-gap: var(--gutter);
 }
 
 h1{
