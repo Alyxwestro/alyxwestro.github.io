@@ -35,7 +35,7 @@ h1{
 
 h2{
     font-size: calc(var(--font-size)*50);
-    top: -30px;
+    padding-top: -100px;
     left: 20px;
     color: white;
     filter: blur(10px);
