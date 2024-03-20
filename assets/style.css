@@ -12,8 +12,7 @@
 }
 
 body{
-    background-color: black; 
-    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    background-color: black;  
     font-size: var(--font-size);
     padding-left: var(--gutter);
     padding-right: var(--gutter);
@@ -22,6 +21,11 @@ body{
     display: flex;
     flex-direction: column;
     row-gap: var(--gutter);
+}
+
+li{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 h1{
