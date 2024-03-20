@@ -12,6 +12,8 @@
 }
 
 body{
+    background-color: black;
+    color: white;
     font-size: var(--font-size);
     padding-left: var(--gutter);
     padding-right: var(--gutter);
