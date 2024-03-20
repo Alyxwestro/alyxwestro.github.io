@@ -34,7 +34,9 @@ h1{
 }
 
 h2{
-    font-size: calc(var(--font-size)*6);
+    font-size: calc(var(--font-size)*50);
+    top: -30px;
+    left: 20px;
     color: white;
     filter: blur(10px);
     position: fixed;
