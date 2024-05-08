@@ -195,15 +195,15 @@ h2{
         top: -300px;
     }
 
-    .container:hover {
-        /* Disable hover effect on mobile */
-        transform: none;
-    }
-    
-    /* Remove hover effect entirely on mobile */
+    .container:hover,
     .container:hover .title,
     .container:hover .project_link {
+        transform: none;
         opacity: 1;
         z-index: auto;
+    }
+    
+    .project_link {
+        pointer-events: auto;
     }
 }
