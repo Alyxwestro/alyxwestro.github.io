@@ -196,12 +196,14 @@ h2{
     }
 
     .container:hover {
-       
+        /* Disable hover effect on mobile */
         transform: none;
     }
-
-   
-    .project_link {
-        pointer-events: auto;
+    
+    /* Remove hover effect entirely on mobile */
+    .container:hover .title,
+    .container:hover .project_link {
+        opacity: 1;
+        z-index: auto;
     }
 }
