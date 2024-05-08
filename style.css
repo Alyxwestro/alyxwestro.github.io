@@ -186,12 +186,13 @@ MOBILE MEDIA QUERY MOBILE MEDIA QUERY
 MOBILE MEDIA QUERY MOBILE MEDIA QUERY */
 @media (min-width: 320px) and (max-width: 767px){
     .all{
-        position: fixed;
-        top: var(--spacing);
+        position: relative;
+        margin-top: -800px;
+        margin-left: var(--spacing);
+
         display: flex;
         flex-direction: column;
-        
-        left: 50%;
-        transform: translateX( -50% ); 
+
+    
     }
 }
