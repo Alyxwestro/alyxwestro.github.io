@@ -136,7 +136,7 @@ h2{
 }
 
 .project_one{  
-    width: 400px;
+    max-width: 400px;
     height: 200px;
     position: absolute;
     top: 0;
@@ -200,4 +200,12 @@ h2{
         
     }
 
+    .container:hover .title {
+        transform: none;
+    }
+
+    .container:hover .project_link {
+       transform: none;
+       z-index: 100;
+    }
 }
