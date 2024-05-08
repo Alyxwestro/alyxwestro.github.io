@@ -179,20 +179,3 @@ h2{
     left: 0;
     z-index:1;
 }
-
-
-/* MOBILE MEDIA QUERY MOBILE MEDIA QUERY
-MOBILE MEDIA QUERY MOBILE MEDIA QUERY
-MOBILE MEDIA QUERY MOBILE MEDIA QUERY */
-@media (min-width: 320px) and (max-width: 767px){
-    .all{
-        position: relative;
-        margin-top: -800px;
-        margin-left: var(--spacing);
-
-        display: flex;
-        flex-direction: column;
-
-    
-    }
-}
